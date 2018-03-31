@@ -46,7 +46,7 @@
             return _;
         };
 
-        _.removeClass = function(clsssName){
+        _.removeClass = function(className){
             _.loop(function(el){
                 el.classList.remove(className);
             });
